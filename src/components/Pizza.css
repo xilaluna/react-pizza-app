@@ -1,0 +1,29 @@
+.Pizza {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  text-align: start;
+}
+
+.PizzaForm {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.PizzaForm > input {
+  margin-top: 0.5rem;
+}
+
+.PizzaOrder {
+  display: flex;
+  flex-direction: column;
+}
+.PizzaOrder > h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin: 4px;
+}
